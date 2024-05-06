@@ -34,3 +34,4 @@ let timeLeft =  10;
 	}
 	}, 1000); // Timer will update every 1 second
 	
+	
