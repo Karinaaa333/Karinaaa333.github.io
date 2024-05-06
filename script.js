@@ -22,8 +22,15 @@ let timeLeft =  10;
 	if (timeLeft <= 0) {
 		clearInterval(countdown);
 		timerElement.textContent = 0;
+		
+		document.getElementById('knopka').onclick = function() {
+		  //console.log("knopka")
+		  window.location.href = 'screen3.html';
+		};
+
 	} else {
 		timerElement.textContent = timeLeft;
 		timeLeft--;
 	}
 	}, 1000); // Timer will update every 1 second
+	
